@@ -64,4 +64,4 @@ function toggleMobileMenu() {
     navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
 }
 
-console.log('✅ Dekkotech Enterprise Website is Ready!');
+console.log('✅ Dekkotech Enterprise Website is Ready with Premium Animations!');

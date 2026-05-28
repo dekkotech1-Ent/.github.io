@@ -24,14 +24,23 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
+    <!-- Hero Section with Animated Background -->
     <section id="home" class="hero">
-        <div class="container">
+        <!-- Animated Background Elements -->
+        <div class="animated-background">
+            <div class="floating-icon icon-1">⚙️</div>
+            <div class="floating-icon icon-2">💻</div>
+            <div class="floating-icon icon-3">🔧</div>
+            <div class="floating-icon icon-4">🌐</div>
+            <div class="animated-gradient"></div>
+        </div>
+
+        <div class="container hero-content-wrapper">
             <div class="hero-content">
-                <h2 class="hero-title">DEKKOTECH ENTERPRISE</h2>
-                <p class="tagline">Trusted IT Solutions For Your Business</p>
-                <p class="hero-description">Kami menyediakan layanan teknologi informasi berkualitas tinggi untuk memenuhi kebutuhan bisnis modern Anda</p>
-                <button class="cta-button" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">Contact Us</button>
+                <h2 class="hero-title fade-in">DEKKOTECH ENTERPRISE</h2>
+                <p class="tagline fade-in-delay-1">Trusted IT Solutions For Your Business</p>
+                <p class="hero-description fade-in-delay-2">Kami menyediakan layanan teknologi informasi berkualitas tinggi untuk memenuhi kebutuhan bisnis modern Anda</p>
+                <button class="cta-button glow-button fade-in-delay-3" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">Contact Us</button>
             </div>
         </div>
     </section>
