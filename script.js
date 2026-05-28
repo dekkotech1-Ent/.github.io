@@ -10,12 +10,12 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
     
     // Simple validation
     if (nama.trim() === '' || email.trim() === '' || pesan.trim() === '') {
-        alert('Sila isi semua medan!');
+        alert('Please fill in all fields!');
         return;
     }
     
     // Simple success message
-    alert('Terima kasih! Pesan anda telah diterima. Kami akan menghubungi anda secepatnya.');
+    alert('Thank you! Your message has been received. We will contact you as soon as possible.');
     
     // Reset form
     this.reset();
@@ -64,4 +64,4 @@ function toggleMobileMenu() {
     navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
 }
 
-console.log('✅ Website Dekkotech Enterprise telah siap!');
+console.log('✅ Dekkotech Enterprise Website is Ready!');
